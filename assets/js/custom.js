@@ -107,7 +107,7 @@ function initMap() {
       (n.type = "text/javascript"),
         (n.id = "map_api"),
         (n.src =
-          "https://maps.googleapis.com/maps/api/js?key=AIzaSyA49hGCmzG22gXOfg784H0w8DtKEsSvq7k"),
+          "https://maps.googleapis.com/maps/api/js?key=AIzaSyA49hGCmzG22gXOfg784H0w8DtKEsSvq7ks"),
         document.body.appendChild(n);
     }
     setTimeout(function () {

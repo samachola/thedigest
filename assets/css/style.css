@@ -3277,6 +3277,24 @@ body.hamburger-menu .header-top {
   width: 50px;
 }
 
+.header-top .header-container .navbar-brand {
+  position: relative;
+  top: 14px;
+  cursor: pointer;
+  margin-left: 50px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+}
+
+
 .header-top .header-container .menu-icon {
   position: relative;
   z-index: 999;
@@ -10301,7 +10319,7 @@ body.nav-all-work .view-all .view-all-container .icon .line-1 {
 }
 
 .nav-work-box .list-main .work-item.dsn-active h3 {
-  letter-spacing: 10px;
+  letter-spacing: 0;
 }
 
 @media only screen and (max-width: 400px) {
@@ -10328,7 +10346,7 @@ body.nav-all-work .view-all .view-all-container .icon .line-1 {
   letter-spacing: 4px;
   font-weight: 800;
   text-transform: capitalize;
-  font-size: 3rem;
+  font-size: 2rem;
   -webkit-transition: letter-spacing 0.5s ease-out;
   -moz-transition: letter-spacing 0.5s ease-out;
   -ms-transition: letter-spacing 0.5s ease-out;
